@@ -176,6 +176,8 @@
             name="FLC" abstractType="#73963482-e29c-4b78-bcbb-cdd29ff71822"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="bd634a5c-38f4-4756-9c85-f1335c5664c9"
             name="SA 2" abstractType="#cb2e7276-b7b4-482b-99cf-211efdcea839"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="b8870ed3-df05-4426-adaf-d4a3d1269f4a"
+            name="SA 3" abstractType="#6865ad17-9baf-4874-b6d4-7a17549b575e"/>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
             id="73963482-e29c-4b78-bcbb-cdd29ff71822" name="FLC">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
@@ -192,6 +194,8 @@
         </ownedSystemComponents>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
             id="cb2e7276-b7b4-482b-99cf-211efdcea839" name="SA 2" actor="true"/>
+        <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
+            id="6865ad17-9baf-4874-b6d4-7a17549b575e" name="SA 3" actor="true"/>
       </ownedSystemComponentPkg>
       <ownedMissionPkg xsi:type="org.polarsys.capella.core.data.ctx:MissionPkg" id="3fa3af27-5e38-4066-b4b4-ca0e90accfb9"
           name="Missions"/>
