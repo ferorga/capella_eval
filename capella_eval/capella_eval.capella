@@ -174,6 +174,8 @@
           id="e2332092-bf0d-4828-8a54-785d8ece36ca" name="Structure">
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="ad51a286-923a-4d8f-ae4f-68901728863f"
             name="FLC" abstractType="#73963482-e29c-4b78-bcbb-cdd29ff71822"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="bd634a5c-38f4-4756-9c85-f1335c5664c9"
+            name="SA 2" abstractType="#cb2e7276-b7b4-482b-99cf-211efdcea839"/>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
             id="73963482-e29c-4b78-bcbb-cdd29ff71822" name="FLC">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
@@ -188,6 +190,8 @@
                 id="6ba8c2f2-d093-4289-8efd-f11518f59907" name="Default Region"/>
           </ownedStateMachines>
         </ownedSystemComponents>
+        <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
+            id="cb2e7276-b7b4-482b-99cf-211efdcea839" name="SA 2" actor="true"/>
       </ownedSystemComponentPkg>
       <ownedMissionPkg xsi:type="org.polarsys.capella.core.data.ctx:MissionPkg" id="3fa3af27-5e38-4066-b4b4-ca0e90accfb9"
           name="Missions"/>
