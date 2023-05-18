@@ -64,6 +64,8 @@
             id="0035139b-737c-4b60-967b-20e66bab9aaf" name="Root System Function">
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
               id="37704987-be55-4555-8568-f026effd908b" name="Serializer"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="5d3c9e9a-ba74-4e07-8043-0d4903c62ff7" name="main"/>
           <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
               id="dd3bf74f-d9c5-4b3a-9825-5a4182583b67" targetElement="#5741a0a2-a989-4ea2-aadc-7504ec73d645"
               sourceElement="#0035139b-737c-4b60-967b-20e66bab9aaf"/>
@@ -176,6 +178,9 @@
             id="73963482-e29c-4b78-bcbb-cdd29ff71822" name="FLC">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="171b3cdb-d8cb-4d6e-90ca-c3b24656c978" targetElement="#37704987-be55-4555-8568-f026effd908b"
+              sourceElement="#73963482-e29c-4b78-bcbb-cdd29ff71822"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="4c2b3b58-f714-4c00-9789-bf8b05a7e3eb" targetElement="#5d3c9e9a-ba74-4e07-8043-0d4903c62ff7"
               sourceElement="#73963482-e29c-4b78-bcbb-cdd29ff71822"/>
           <ownedStateMachines xsi:type="org.polarsys.capella.core.data.capellacommon:StateMachine"
               id="290f8e6b-ba53-47ad-b23c-76f3995b9d76" name="System State Machine">
