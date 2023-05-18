@@ -11,7 +11,7 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_Jejz0PVhEe2C_uHSOl_NHA">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_gtsz8PVhEe2C_uHSOl_NHA" name="[SAB] Structure" repPath="#_gtoigPVhEe2C_uHSOl_NHA" changeId="1684406236360">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_gtsz8PVhEe2C_uHSOl_NHA" name="[SAB] Structure" repPath="#_gtoigPVhEe2C_uHSOl_NHA" changeId="1684413236727">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.ctx:SystemComponentPkg" href="capella_eval.capella#e2332092-bf0d-4828-8a54-785d8ece36ca"/>
       </ownedRepresentationDescriptors>
@@ -61,6 +61,17 @@
               <styles xmi:type="notation:ShapeStyle" xmi:id="_7ZOzsfVnEe276J60uAnMAg" fontColor="3038217" fontName="Segoe UI" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7ZOzsvVnEe276J60uAnMAg" x="15" y="74" width="141" height="50"/>
             </children>
+            <children xmi:type="notation:Node" xmi:id="_PA7YwPV4Ee2HXoAsRFWzsg" type="3007" element="_PAod0PV4Ee2HXoAsRFWzsg">
+              <children xmi:type="notation:Node" xmi:id="_PA8m4PV4Ee2HXoAsRFWzsg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_PA8m4fV4Ee2HXoAsRFWzsg" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_PA91APV4Ee2HXoAsRFWzsg" type="3003" element="_PApE4PV4Ee2HXoAsRFWzsg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_PA91AfV4Ee2HXoAsRFWzsg" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PA91AvV4Ee2HXoAsRFWzsg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_PA7YwfV4Ee2HXoAsRFWzsg" fontColor="3038217" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PA7YwvV4Ee2HXoAsRFWzsg" x="155" y="184" width="121" height="50"/>
+            </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_guVtIvVhEe2C_uHSOl_NHA"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_guVtI_VhEe2C_uHSOl_NHA"/>
           </children>
@@ -99,6 +110,14 @@
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:Square" uid="_7ZDNgPVnEe276J60uAnMAg" labelColor="9,92,46" borderSize="1" borderSizeComputationExpression="1" borderColor="9,92,46" labelPosition="node" color="197,255,166">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='System%20Actors']/@subNodeMappings[name='CA%20System%20Function']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='System%20Actors']/@subNodeMappings[name='CA%20System%20Function']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_PAod0PV4Ee2HXoAsRFWzsg" name="Deserializer" width="5" height="5" resizeKind="NSEW">
+        <target xmi:type="org.polarsys.capella.core.data.ctx:SystemFunction" href="capella_eval.capella#7c6341dc-c76a-4ddb-a1f9-2bde18f7b0b0"/>
+        <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:SystemFunction" href="capella_eval.capella#7c6341dc-c76a-4ddb-a1f9-2bde18f7b0b0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_PApE4PV4Ee2HXoAsRFWzsg" labelColor="9,92,46" borderSize="1" borderSizeComputationExpression="1" borderColor="9,92,46" labelPosition="node" color="197,255,166">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='System%20Actors']/@subNodeMappings[name='CA%20System%20Function']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='System%20Actors']/@subNodeMappings[name='CA%20System%20Function']"/>
